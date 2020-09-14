@@ -25,6 +25,7 @@ import com.nt.vo.PatientVO;
 			controller=childCtx.getBean("controller",MainController.class);
 			//invoke method
 			System.out.println("...................................................");
+			System.out.println(".......................................");
 			try {
 				listVO=controller.getPatientsByCause("cause1");
 				//display results
